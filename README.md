@@ -40,11 +40,19 @@ Now attach the arduino to raspberry pi and enter the command in the terminal
 sudo i2cdetect -y 1
 ```
 If everyting goes correct you have to see this.
+<p align="center">
+  <img src="i2c-tools.png" width=720, height=480>
+ </p>
+ 
 #### Python code
 Now run the getData.py file
 ```
 python3 getData.py
 ```
+<p align="center">
+  <img src="python-running.png" width=720, height=480>
+ </p>
+  
 
 
 
